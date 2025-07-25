@@ -1,0 +1,128 @@
+ProxyPass "/service/reiniciar" "http://200.0.113.207:3000/reiniciar"
+ProxyPassReverse "/service/reiniciar "http://200.0.113.207:3000/reiniciar"
+
+ProxyPass "/service/parar" "http://200.0.113.207:3000/parar"
+ProxyPassReverse "/service/parar" "http://200.0.113.207:3000/parar"
+
+ProxyPass "/service/desligar" "http://200.0.113.207:3000/desligar"
+ProxyPassReverse "/service/desligar" "http://200.0.113.207:3000/desligar"
+
+ProxyPass "/service/buscarAluno" "http://200.0.113.147:3000/buscarAluno"
+ProxyPassReverse "/service/buscarAluno" "http://200.0.113.147:3000/buscarAluno"
+
+ProxyPass "/service/listarAlunos" "http://200.0.113.147:3000/listarAlunos"
+ProxyPassReverse "/service/listarAlunos" "http://200.0.113.147:3000/listarAlunos"
+
+ProxyPass "/service/adicionarAluno" "http://200.0.113.147:3000/adicionarAluno"
+ProxyPassReverse "/service/adicionarAluno" "http://200.0.113.147:3000/adicionarAluno"
+
+ProxyPass "/service/atualizarAluno" "http://200.0.113.147:3000/atualizarAluno"
+ProxyPassReverse "/service/atualizarAluno" "http://200.0.113.147:3000/atualizarAluno"
+
+ProxyPass "/service/removerAluno" "http://200.0.113.147:3000/removerAluno"
+ProxyPassReverse "/service/removerAluno" "http://200.0.113.147:3000/removerAluno"
+
+ProxyPass "/service/buscarProfessor" "http://200.0.113.147:3000/buscarProfessor"
+ProxyPassReverse "/service/buscarProfessor" "http://200.0.113.147:3000/buscarProfessor"
+
+ProxyPass "/service/listarProfessores" "http://200.0.113.147:3000/listarProfessores"
+ProxyPassReverse "/service/listarProfessores" "http://200.0.113.147:3000/listarProfessores"
+
+ProxyPass "/service/adicionarProfessor" "http://200.0.113.147:3000/adicionarProfessor"
+ProxyPassReverse "/service/adicionarProfessor" "http://200.0.113.147:3000/adicionarProfessor"
+
+ProxyPass "/service/atualizarProfessor" "http://200.0.113.147:3000/atualizarProfessor"
+ProxyPassReverse "/service/atualizarProfessor" "http://200.0.113.147:3000/atualizarProfessor"
+
+ProxyPass "/service/removerProfessor" "http://200.0.113.147:3000/removerProfessor"
+ProxyPassReverse "/service/removerProfessor" "http://200.0.113.147:3000/removerProfessor"
+
+ProxyPass "/service/buscarCurso" "http://200.0.113.47:3000/buscarCurso"
+ProxyPassReverse "/service/buscarCurso" "http://200.0.113.47:3000/buscarCurso"
+
+ProxyPass "/service/listarCursos" "http://200.0.113.47:3000/listarCursos"
+ProxyPassReverse "/service/listarCursos" "http://200.0.113.47:3000/listarCursos"
+
+ProxyPass "/service/adicionarCurso" "http://200.0.113.47:3000/adicionarCurso"
+ProxyPassReverse "/service/adicionarCurso" "http://200.0.113.47:3000/adicionarCurso"
+
+ProxyPass "/service/atualizarCurso" "http://200.0.113.47:3000/atualizarCurso"
+ProxyPassReverse "/service/atualizarCurso" "http://200.0.113.47:3000/atualizarCurso"
+
+ProxyPass "/service/removerCurso" "http://200.0.113.47:3000/removerCurso"
+ProxyPassReverse "/service/removerCurso" "http://200.0.113.47:3000/removerCurso"
+
+ProxyPass "/service/buscarDisciplina" "http://200.0.113.47:3000/buscarDisciplina"
+ProxyPassReverse "/service/buscarDisciplina" "http://200.0.113.47:3000/buscarDisciplina"
+
+ProxyPass "/service/listarDisciplinas" "http://200.0.113.47:3000/listarDisciplinas"
+ProxyPassReverse "/service/listarDisciplinas" "http://200.0.113.47:3000/listarDisciplinas"
+
+ProxyPass "/service/adicionarDisciplina" "http://200.0.113.47:3000/adicionarDisciplina"
+ProxyPassReverse "/service/adicionarDisciplina" "http://200.0.113.47:3000/adicionarDisciplina"
+
+ProxyPass "/service/atualizarDisciplina" "http://200.0.113.47:3000/atualizarDisciplina"
+ProxyPassReverse "/service/atualizarDisciplina" "http://200.0.113.47:3000/atualizarDisciplina"
+
+ProxyPass "/service/removerDisciplina" "http://200.0.113.47:3000/removerDisciplina"
+ProxyPassReverse "/service/removerDisciplina" "http://200.0.113.47:3000/removerDisciplina"
+
+ProxyPass "/service/buscarMatricula" "http://200.0.113.24:3000/buscarMatricula"
+ProxyPassReverse "/service/buscarMatricula" "http://200.0.113.24:3000/buscarMatricula"
+
+ProxyPass "/service/listarMatriculas" "http://200.0.113.24:3000/listarMatriculas"
+ProxyPassReverse "/service/listarMatriculas" "http://200.0.113.24:3000/listarMatriculas"
+
+ProxyPass "/service/adicionarMatricula" "http://200.0.113.24:3000/adicionarMatricula"
+ProxyPassReverse "/service/adicionarMatricula" "http://200.0.113.24:3000/adicionarMatricula"
+
+ProxyPass "/service/atualizarMatricula" "http://200.0.113.24:3000/atualizarMatricula"
+ProxyPassReverse "/service/atualizarMatricula" "http://200.0.113.24:3000/atualizarMatricula"
+
+ProxyPass "/service/removerMatricula" "http://200.0.113.24:3000/removerMatricula"
+ProxyPassReverse "/service/removerMatricula" "http://200.0.113.24:3000/removerMatricula"
+
+ProxyPass "/service/buscarAvaliacao" "http://200.0.113.24:3000/buscarAvaliacao"
+ProxyPassReverse "/service/buscarAvaliacao" "http://200.0.113.24:3000/buscarAvaliacao"
+
+ProxyPass "/service/listarAvaliacoes" "http://200.0.113.24:3000/listarAvaliacoes"
+ProxyPassReverse "/service/listarAvaliacoes" "http://200.0.113.24:3000/listarAvaliacoes"
+
+ProxyPass "/service/adicionarAvaliacao" "http://200.0.113.24:3000/adicionarAvaliacao"
+ProxyPassReverse "/service/adicionarAvaliacao" "http://200.0.113.24:3000/adicionarAvaliacao"
+
+ProxyPass "/service/atualizarAvaliacao" "http://200.0.113.24:3000/atualizarAvaliacao"
+ProxyPassReverse "/service/atualizarAvaliacao" "http://200.0.113.24:3000/atualizarAvaliacao"
+
+ProxyPass "/service/removerAvaliacao" "http://200.0.113.24:3000/removerAvaliacao"
+ProxyPassReverse "/service/removerAvaliacao" "http://200.0.113.24:3000/removerAvaliacao"
+
+ProxyPass "/service/buscarTurma" "http://200.0.113.240:3000/buscarTurma"
+ProxyPassReverse "/service/buscarTurma" "http://200.0.113.240:3000/buscarTurma"
+
+ProxyPass "/service/listarTurmas" "http://200.0.113.240:3000/listarTurmas"
+ProxyPassReverse "/service/listarTurmas" "http://200.0.113.240:3000/listarTurmas"
+
+ProxyPass "/service/adicionarTurma" "http://200.0.113.240:3000/adicionarTurma"
+ProxyPassReverse "/service/adicionarTurma" "http://200.0.113.240:3000/adicionarTurma"
+
+ProxyPass "/service/atualizarTurma" "http://200.0.113.240:3000/atualizarTurma"
+ProxyPassReverse "/service/atualizarTurma" "http://200.0.113.240:3000/atualizarTurma"
+
+ProxyPass "/service/removerTurma" "http://200.0.113.240:3000/removerTurma"
+ProxyPassReverse "/service/removerTurma" "http://200.0.113.240:3000/removerTurma"
+
+ProxyPass "/service/buscarHorario" "http://200.0.113.240:3000/buscarHorario"
+ProxyPassReverse "/service/buscarHorario" "http://200.0.113.240:3000/buscarHorario"
+
+ProxyPass "/service/listarHorarios" "http://200.0.113.240:3000/listarHorarios"
+ProxyPassReverse "/service/listarHorarios" "http://200.0.113.240:3000/listarHorarios"
+
+ProxyPass "/service/adicionarHorario" "http://200.0.113.240:3000/adicionarHorario"
+ProxyPassReverse "/service/adicionarHorario" "http://200.0.113.240:3000/adicionarHorario"
+
+ProxyPass "/service/atualizarHorario" "http://200.0.113.240:3000/atualizarHorario"
+ProxyPassReverse "/service/atualizarHorario" "http://200.0.113.240:3000/atualizarHorario"
+
+ProxyPass "/service/removerHorario" "http://200.0.113.240:3000/removerHorario"
+ProxyPassReverse "/service/removerHorario" "http://200.0.113.240:3000/removerHorario"
